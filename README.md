@@ -16,7 +16,7 @@ Haneen Gufran - [LinkedIn](https://www.linkedin.com/in/haneen-gufran-a8b4a6227)
 A **Blind SQL Injection** vulnerability has been identified within the Client Management System. The vulnerability is found in the `Between Dates Reports` parameter in the date functionality of the application.
 
 - **Vulnerable Endpoint:**  
-  `http://localhost/clientms/admin/bwdates-reports-ds.php`
+  `clientms/admin/bwdates-reports-ds.php`
   
 - **Vulnerable Parameter:**  
   `Between Dates Reports`
@@ -27,7 +27,7 @@ The input field for the `Between Dates Reports` feature is not properly sanitize
 
 #### Vulnerable URL
 ```plaintext
-http://localhost/clientms/admin/bwdates-reports-ds.php
+clientms/admin/bwdates-reports-ds.php
 
 #### Example POST Request
 
